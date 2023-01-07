@@ -1,0 +1,49 @@
+#contact {
+  &__a {
+    .form-fields {
+      display: grid;
+      gap: 1rem;
+      grid-template-areas: 
+        'name email'
+        'subject phone'
+        'message message'
+        'button button';
+        margin-bottom: 1rem;
+
+        .name {
+            grid-area: name;
+        }
+
+        .email {
+            grid-area: email;
+        }
+
+        .subject {
+            grid-area: subject;
+        }
+        .phone {
+            grid-area: phone;
+        }
+        .message {
+            grid-area: message;
+            height: 180px;
+        }
+        .button {
+            grid-area: button;
+        }
+
+        .input{
+            padding: 0.5rem 1rem;
+        }
+    
+      
+    }
+  }
+
+  &__b {
+    .contact__content {
+        display: grid;
+grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
