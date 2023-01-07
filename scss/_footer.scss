@@ -3,23 +3,22 @@
     color: #fff;
     height: 5rem;
 
-    .footer-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 5rem;
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 6rem;
 
-        .social .fab {
-            margin-right: 1rem;
-            border: 2px solid #fff;
-            border-radius: 50%;
-            text-align: center;
-            padding: .6rem;
-            transition: all .5s;
+            .social .fab {
+                border: 2px solid #fff;
+                border-radius: 50%;
+                padding: .6rem;
+                margin-right: 1rem;
+                transition: all .6s;
 
-            &:hover {
-                background-color: $primary-color;
+                &:hover {
+                    background-color: $primary-color;
+                }
             }
         }
-    }
 }
